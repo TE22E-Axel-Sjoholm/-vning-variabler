@@ -7,13 +7,16 @@ public class App {
         int summa_subtraktion = tal1-tal2;
         int produkt = tal1*tal2;
         int kvot = tal1/tal2;
-
+        int rest1 = 10%3;
+        int rest2 = 9%3;
 
 
         System.out.println("summan av tal1 + tal2 är "+summa_addition);
         System.out.println("differensen av tal1 - tal2 är "+summa_subtraktion);
         System.out.println("Produkten av tal1 * tal2 är "+produkt);
         System.out.println("kvoten av tal1 / tal2 är "+kvot);
+        System.out.println("Resten av 10/3 är "+rest1);
+        System.out.println("Resten av 9/3 är "+rest2);
 
 
 
